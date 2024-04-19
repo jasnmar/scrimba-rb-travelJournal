@@ -15,7 +15,7 @@ export default [
         location: "Iceland",
         googleMapsUrl: "https://www.google.com/maps/place/Hallgrimskirkja/@64.1420229,-21.9265493,15z/data=!4m6!3m5!1s0x48d674cca0432db5:0xf7af28c4489daaef!8m2!3d64.1420229!4d-21.9265493!16s%2Fg%2F1tknk0hk?entry=ttu",
         startDate: "07 Oct, 2019",
-        endDate: "10 Oct, 1029",
+        endDate: "10 Oct, 2019",
         description: "Inspired by Icelandic traditions, this modern cathedral, consecrated in 1986, has a 73m-high tower.",
         imageUrl: "Hallgrimskirkja.jpg"
     },
