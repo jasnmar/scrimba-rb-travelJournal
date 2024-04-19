@@ -1,7 +1,6 @@
 import "./Header.css"
 import world from "../../assets/world.png"
 
-
 function Header() {
     return (
         <header>
@@ -10,5 +9,6 @@ function Header() {
         </header>
     )    
 }
+
 
 export default Header

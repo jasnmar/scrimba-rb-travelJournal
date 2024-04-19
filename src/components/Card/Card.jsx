@@ -1,5 +1,5 @@
 import "./Card.css"
-import mappin from "../../assets/map-pin.png"
+import mapPin from "../../assets/map-pin.png"
 
 function Card(props) {
     const imgSrc = props.imageUrl
@@ -8,7 +8,7 @@ function Card(props) {
             <img className="card--main-image" src={imgSrc}></img>
             <div className="card--location-info">
                 <div className="card--title-row">
-                    <img className="card--map-pin" src={mappin}></img>
+                    <img className="card--map-pin" src={mapPin}></img>
                     <p className="card--country">{props.location}</p>
                     <a className="card--view-maps" href={props.googleMapsUrl}>View on Google Maps</a>
                 </div>
@@ -16,7 +16,6 @@ function Card(props) {
                 <p className="card--date">{props.startDate} - {props.endDate}</p>
                 <p className="card--description">{props.description}</p>
             </div>
-            
         </div>
     )
 
