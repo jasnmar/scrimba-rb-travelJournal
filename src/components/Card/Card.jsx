@@ -2,7 +2,7 @@ import "./Card.css"
 import mappin from "../../assets/map-pin.png"
 
 function Card(props) {
-    const imgSrc = "/src/assets/" + props.imageUrl
+    const imgSrc = props.imageUrl
     return (
         <div className="card">
             <img className="card--main-image" src={imgSrc}></img>
